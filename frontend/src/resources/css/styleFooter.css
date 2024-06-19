@@ -1,0 +1,255 @@
+/*----------------------------------------*/
+/* 10. Footer CSS
+/*----------------------------------------*/
+
+/* footer top css */
+.footer-top {
+    padding-bottom: 20px;
+}
+
+.footer-title {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 34px;
+    margin: 0 0 15px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.footer-list li a {
+  color: #212121;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.footer-list li {
+    line-height: 31px;
+}
+
+.footer-list li a:hover {
+    color: #E62E04;
+}
+
+.footer-list li a:hover:before {
+    opacity: 0;
+}
+
+.logo-footer {
+    margin-bottom: 30px;
+}
+
+.footer-content p {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.footer-content h5 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.social-footer-list a {
+    color: #b2b2b1;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.social-footer-list a:not(:last-child) {
+    margin-right: 30px;
+}
+
+.social-footer-list a:hover {
+    color: #E62E04;
+}
+
+.single-footer.style-change {
+    padding-left: 40px;
+}
+
+/* footer middle css */
+.social-footer > li {
+  display: inline-block;
+}
+
+.social-footer li a {
+  padding: 0 13px;
+  text-align: center;
+}
+.social-footer li a i {
+  color: #212121;
+  font-size: 28px;
+  line-height: 1;
+  vertical-align: middle;
+  transition: all 0.3s ease-in-out;
+}
+.social-footer li a:hover i{
+  color: #E62E04;
+}
+/* footer bottom css */
+.footer-bottom-content p {
+    color: #666;
+    font-size: 14px;
+}
+
+.footer-bottom-content p a {
+    color: #E62E04;
+}
+
+.footer-bottom-content p a:hover,
+.tag-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav-list li {
+    display: inline-block;
+}
+
+.footer-nav-list li a {
+    color: #666;
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.footer-nav-list li a:hover,
+.tag-content a:hover {
+    color: #E62E04;
+}
+
+.footer-nav-list li:first-child a {
+    padding-left: 0;
+}
+
+#scrollUp {
+    background: #333 none repeat scroll 0 0;
+    bottom: 65px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    height: 40px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 40px;
+    z-index: 999;
+}
+
+#scrollUp:hover {
+    background: #E62E04;
+}
+
+#scrollUp i {
+    font-size: 25px;
+    line-height: 40px;
+}
+.footer-list li {
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out 0s;
+}
+.address-content li {
+  color: #212121;
+  display: block;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 5px;
+  padding-left: 30px;
+  position: relative;
+}
+.address-content li i {
+  display: inline-block;
+  font-size: 18px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+}
+.copyright-text a {
+  color: #212121;
+}
+.copyright-text.text-center > p {
+  color: #212121;
+  font-size: 14px;
+}
+.off-white-bg2{
+    background: #f9f9fb;
+}
+
+.pt-95 { padding-top: 95px }
+
+.bdr-top{
+    border-top:1px solid #ddd;
+  }
+
+  .newsletter {
+    padding: 35px 0;
+}
+
+.news-desc h3 {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 15px;
+  line-height: 1;
+}
+.news-desc p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+  .newsletter-box .subscribe {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 5px;
+    color: #777;
+    display: block;
+    font-size: 13px;
+    height: 50px;
+    padding: 0 166px 0 20px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.newsletter-box {
+    position: relative;
+}
+
+.newsletter-box .submit {
+    background: #212121 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0 5px 5px 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: "Lato",sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 35px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    -webkit-transition: all 300ms ease-in 0s;
+    transition: all 300ms ease-in 0s;
+    cursor: pointer;
+}
+.newsletter-box .submit:hover {
+    background: #e62e04;
+}
+
+.img{
+    max-width: 100%;
+}
